@@ -1,3 +1,7 @@
+
+% *1.* Plot the pole Q (Qp) of the dominant pole of a fourth-order Chebyshev
+% filter as a function of αp .
+
 clear; close all; clc;
 
 % Define filter specifications

@@ -10,7 +10,8 @@ Rp = 0.2; Rs = 60;
 % Wp = 1; Ws = 2.5;
 
 % Rp = 0.3; Rs = 22;
-[N, Wn] = cheb1ord(Wp, Ws, Rp, Rs, 's')
+% [N, Wn] = cheb1ord(Wp, Ws, Rp, Rs, 's')
+[N, Wn] = cheb1ord(Wp, Ws, 0.5, 30, 's')
 
 % N=3
 %% Find numerator and denominator of filter transfer funcion
